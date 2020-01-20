@@ -1,4 +1,4 @@
-INDIGO_WELCOME_MESSAGE: "Building Tomorrow's Digital Leaders with Callysto"
+INDIGO_WELCOME_MESSAGE: "A computational thinking, coding, and data literacy program for Grades 5-12"
 INDIGO_PRIMARY_COLOR: "#3b85ff" # cool blue
 
 # Footer links are dictionaries with a "title" and "url"
