@@ -1,4 +1,4 @@
-INDIGO_WELCOME_MESSAGE: "The place for all your online learning"
+INDIGO_WELCOME_MESSAGE: "Building Tomorrow's Digital Leaders with Callysto"
 INDIGO_PRIMARY_COLOR: "#3b85ff" # cool blue
 
 # Footer links are dictionaries with a "title" and "url"
@@ -8,5 +8,18 @@ INDIGO_PRIMARY_COLOR: "#3b85ff" # cool blue
 #     url: "http://mywebsite/about"
 #   - title: "Donate"
 #     url: "http://mywebsite/donations"
-INDIGO_FOOTER_NAV_LINKS: []
-INDIGO_FOOTER_LEGAL_LINKS: []
+INDIGO_FOOTER_NAV_LINKS:
+  - title: "About Us"
+    url: "https://callysto.ca/callysto/"
+  - title: "Cybera"
+    url: "https://www.cybera.ca/"
+  - title: "Pacific Institute of Mathematical Sciences"
+    url: "https://www.pims.math.ca/"
+  - title: "The Government of Canada"
+    url: "https://www.ic.gc.ca/eic/site/121.nsf/eng/home"
+
+INDIGO_FOOTER_LEGAL_LINKS:
+  - title: "Terms of Service"
+    url: "https://callysto.ca/wp-content/uploads/2020/01/CallystoLearningSystem-TermsofService-January2020.pdf"
+  - title: "Privacy Policy"
+    url: "https://callysto.ca/wp-content/uploads/2020/01/CallystoLearningSystem-PrivacyNotice-January2020.pdf"
