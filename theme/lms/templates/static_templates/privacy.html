@@ -1,0 +1,23 @@
+## mako
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">Privacy Policy</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>
+            <%block name="pageheader">Privacy Policy</%block>
+        </h1>
+        <%block name="pagecontent">
+        {% if INDIGO_FOOTER_LEGAL_LINKS -%}
+          {% for link in INDIGO_FOOTER_LEGAL_LINKS -%}
+          {% if link['title'] == "Privacy Policy" -%}
+            <p>Our Privacy Policy can be found <a href="{{ link['url'] }}">here</a>.</p>
+          {% endif -%}
+          {% endfor -%}
+        {% endif -%}
+        </%block>
+    </section>
+</main>
